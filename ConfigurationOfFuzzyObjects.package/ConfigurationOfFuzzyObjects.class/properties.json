@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfFuzzyObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfFuzzyObjects",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

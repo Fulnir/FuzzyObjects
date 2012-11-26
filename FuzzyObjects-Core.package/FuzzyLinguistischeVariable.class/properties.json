@@ -1,0 +1,20 @@
+{
+	"category" : "FuzzyObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"varname",
+		"xmin",
+		"xmax",
+		"setliste",
+		"deFuzzyFlaeche",
+		"zVarListe",
+		"orderedSetNames" ],
+	"name" : "FuzzyLinguistischeVariable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,32 @@
+{
+	"category" : "FuzzyObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"eingangswert",
+		"deFuzzyFlaeche",
+		"laengeLFunktion",
+		"laengeRFunktion",
+		"deltaY",
+		"deltaLY",
+		"deltaRY",
+		"setcolor",
+		"setname",
+		"xmin",
+		"xmax",
+		"linkemitte",
+		"rechtemitte",
+		"breitelinks",
+		"breiterechts",
+		"ymin",
+		"ymax",
+		"linkefunktion",
+		"rechtefunktion" ],
+	"name" : "FuzzySet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
