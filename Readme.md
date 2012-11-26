@@ -9,11 +9,13 @@ the code for SmalltalkAgents.
 
 The code snippets which I found in an archive is not complete. I've copied the available code directly to Pharo.
 
-I do this only to play with and learning the workflow between Pharo, Git, Github, Tarvis-CI.
+I create this repository only to play with and learning the workflow between Pharo, Git, Github, Tarvis-CI.
 
 And have no plans to make complete useable component with
 
 It's not translated from German to English yet.
+
+[![Build Status](https://secure.travis-ci.org/Fulnir/FuzzyObjects.png?branch=master)](https://www.travis-ci.org/Fulnir/FuzzyObjects)
 
 
 
