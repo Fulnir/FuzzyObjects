@@ -13,7 +13,7 @@
 		"deFuzzyFlaeche",
 		"zVarListe",
 		"orderedSetNames" ],
-	"name" : "FuzzyLinguistischeVariable",
+	"name" : "FuzzyLinguisticVariable",
 	"pools" : [
 		 ],
 	"super" : "Object",
