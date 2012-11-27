@@ -6,7 +6,7 @@ gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 Metacello new
   configuration: 'FuzzyObjects';
   repository: 'filetree://', gitPath, '/FuzzyObjects';
-  load.
+  load: 'Tests'.
   
 "Run the tests"
 TravisCIHarness

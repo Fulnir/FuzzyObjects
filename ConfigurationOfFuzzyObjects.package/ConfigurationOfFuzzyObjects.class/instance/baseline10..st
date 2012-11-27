@@ -25,6 +25,6 @@ baseline10: spec
 			package: 'FuzzyObjects-Tests-Core' with: [
 				spec requires: #('FuzzyObjects-Core' ). ].
 		spec 
-			group: 'default' with: #('Core' 'Tests' );
+			group: 'default' with: #('Core');
 			group: 'Core' with: #('FuzzyObjects-Core' );
 			group: 'Tests' with: #('FuzzyObjects-Tests-Core' ). ].
