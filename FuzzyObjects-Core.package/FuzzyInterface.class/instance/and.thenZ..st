@@ -1,5 +1,5 @@
 as yet unclassified
-und: aArray dannZ: aObject
+and: aArray thenZ: aObject
    "Und-Operator. Ergebnis in Gesamtfläche eintragen."
     | einer alle ergebnis top z|
 
@@ -8,7 +8,7 @@ und: aArray dannZ: aObject
     do: bewirkt, daß mit jedem Set als Parameter der Block ausgeführt wird."
 
                                                                               "setname"
-    aArray do: [:aFuzzySet | einer := aFuzzySet degree: ( eingang at:  (self varZuSet: aFuzzySet)).
+    aArray do: [:aFuzzySet | einer := aFuzzySet degree: ( input at:  (self varToSet: aFuzzySet)).
                     alle isNil
                         ifTrue: [alle := Set with: einer]
                         ifFalse: [alle add: einer]

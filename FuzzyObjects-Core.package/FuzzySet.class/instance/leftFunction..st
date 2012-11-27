@@ -1,5 +1,5 @@
-accessing
-linkefunktion: aSymbol
+as yet unclassified
+leftFunction: aSymbol
     "Setzen der linken Setfunktion.
     -
     Bei der Berechnung wird mit den der Funktion übergebenen Werten bei

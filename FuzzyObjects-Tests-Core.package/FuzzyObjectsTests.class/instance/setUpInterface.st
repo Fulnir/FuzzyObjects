@@ -3,18 +3,18 @@ setUpInterface
 	"Erzeugen eines Fuzzy-Interface."
     ventilSteuerung := FuzzyInterface new.
     ventilSteuerung
-        flaechengroesse: 101;        "Genauigkeit der Defuzzyfizierung."
-        neueLingVar: ventil;
-        neueLingVar: druck;
-        neueLingVar: temperatur.
+        surfaceSize: 101;        "Genauigkeit der Defuzzyfizierung."
+        newLingVar: ventil;
+        newLingVar: druck;
+        newLingVar: temperatur.
  	ventilSteuerung
-        neueRegel: (Array with: 'minimum' with: (Array with: warm with: mittel ) with: halb);
-        neueRegel: (Array with: 'maximum' with: (Array with: heiss with: hoch) with:  zu); 
-        neueRegel: (Array with: 'maximum' with: (Array with: kalt with: niedrig) with: auf).
+        newRule: (Array with: 'minimum' with: (Array with: warm with: mittel ) with: halb);
+        newRule: (Array with: 'maximum' with: (Array with: heiss with: hoch) with:  zu); 
+        newRule: (Array with: 'maximum' with: (Array with: kalt with: niedrig) with: auf).
 
 
-    ventilSteuerung ausgangInit: 'ventil'.
+    ventilSteuerung initOutput: 'ventil'.
 
     ventilSteuerung
-        eingang: 'temperatur'   setzen: -90;
-        eingang: 'druck'        setzen: 120.
+        input: 'temperatur'   set: -90;
+        input: 'druck'        set: 120.

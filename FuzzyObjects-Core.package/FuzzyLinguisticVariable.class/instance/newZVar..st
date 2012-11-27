@@ -1,14 +1,14 @@
 accessing
-neueZVar: aString
+newZVar: aString
     "Erzeugt eine neue Zwischenvariable bei der kaskadierung von Regeln."
 
     | avarname avar|
 
-    zVarListe isNil
-        ifTrue: [zVarListe := Dictionary new].
+    zVarList isNil
+        ifTrue: [zVarList := Dictionary new].
 
 
     avar        := 0.
     avarname    := aString.
 
-    zVarListe at: avarname put: avar.
+    zVarList at: avarname put: avar.

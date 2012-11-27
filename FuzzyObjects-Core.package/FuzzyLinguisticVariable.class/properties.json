@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"varname",
 		"xmin",
 		"xmax",
-		"setliste",
-		"deFuzzyFlaeche",
-		"zVarListe",
-		"orderedSetNames" ],
+		"orderedSetNames",
+		"varName",
+		"setList",
+		"deFuzzySurface",
+		"zVarList" ],
 	"name" : "FuzzyLinguisticVariable",
 	"pools" : [
 		 ],

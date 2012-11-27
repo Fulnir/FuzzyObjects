@@ -1,5 +1,5 @@
 accessing
-varname
+varName
     "Gibt den namen der Variablen aus."
 
-    ^varname
+    ^varName

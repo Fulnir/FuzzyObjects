@@ -7,18 +7,18 @@ testFuzzyRules
     ventilSteuerungTest := FuzzyInterface new.
 
     ventilSteuerungTest
-        flaechengroesse: 101;        "Genauigkeit der Defuzzyfizierung."
-        neueLingVar: ventil;
-        neueLingVar: druck;
-        neueLingVar: temperatur.
+        surfaceSize: 101;        "Genauigkeit der Defuzzyfizierung."
+        newLingVar: ventil;
+        newLingVar: druck;
+        newLingVar: temperatur.
 
-	self assert: ventilSteuerungTest flaechengroesse = 101.
-	self assert: (ventilSteuerungTest lingvar:  'ventil' )varname = 'ventil'.
+	self assert: ventilSteuerungTest surfaceSize = 101.
+	self assert: (ventilSteuerungTest lingvar:  'ventil' )varName = 'ventil'.
 	
  	ventilSteuerungTest
-        neueRegel: (Array with: 'minimum' with: (Array with: warm with: mittel ) with: halb);
-        neueRegel: (Array with: 'maximum' with: (Array with: heiss with: hoch) with:  zu); 
-        neueRegel: (Array with: 'maximum' with: (Array with: kalt with: niedrig) with: auf).
+        newRule: (Array with: 'minimum' with: (Array with: warm with: mittel ) with: halb);
+        newRule: (Array with: 'maximum' with: (Array with: heiss with: hoch) with:  zu); 
+        newRule: (Array with: 'maximum' with: (Array with: kalt with: niedrig) with: auf).
 
 
     "Zuerst die Regeln der ersten Schicht. Danach in der entsprechenden
@@ -33,15 +33,15 @@ testFuzzyRules
     "neueRegel: (List with: 'gamma' with: (List with: heiss with: hoch) with:  zu with: 0.5); "
 
     ventilSteuerungTest
-        ausgangInit: 'ventil'.
+        initOutput: 'ventil'.
 
     ventilSteuerungTest
-        eingang: 'temperatur'   setzen: -90;
-        eingang: 'druck'        setzen: 120.
+        input: 'temperatur'   set: -90;
+        input: 'druck'        set: 120.
 
 
     
-	self assert: (ventilSteuerungTest  ausgangLesen: 'ventil') = 62.
+	self assert: (ventilSteuerungTest  readOutput: 'ventil') = 62.
 
     " VentilSteuerung ausgangalle.           -defuzzyfizierung für alle ausgänge."
 

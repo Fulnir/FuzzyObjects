@@ -1,5 +1,5 @@
 as yet unclassified
-flaechengroesse: ainteger
+surfaceSize: ainteger
     "stellt die Genauigkeit der Defuzzyfizierung ein."
 
-    Flaechengroesse := ainteger
+    SurfaceSize := ainteger

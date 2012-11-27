@@ -1,5 +1,5 @@
 accessing
-deFuzzyFlaeche
+deFuzzySurface
     "Antwortet mit der Fuzzyfläche."
 
-    ^deFuzzyFlaeche
+    ^deFuzzySurface

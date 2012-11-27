@@ -3,18 +3,17 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Flaechengroesse",
+		"SurfaceSize",
 		"XDisplayScale",
 		"YDisplayScale" ],
 	"commentStamp" : "EdwinBuehler 11/26/2012 18:35",
 	"instvars" : [
-		"regeln",
 		"sets",
-		"lingvarliste",
-		"eingang",
-		"ausgang",
-		"zwischen",
-		"gesamtflaeche" ],
+		"rules",
+		"output",
+		"input",
+		"totalSurface",
+		"lingVarList" ],
 	"name" : "FuzzyInterface",
 	"pools" : [
 		 ],

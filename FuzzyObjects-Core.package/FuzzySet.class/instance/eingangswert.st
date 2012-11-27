@@ -1,5 +1,0 @@
-accessing
-eingangswert
-    "comment"
-
-    ^eingangswert

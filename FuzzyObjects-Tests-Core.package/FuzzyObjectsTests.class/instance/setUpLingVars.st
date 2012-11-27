@@ -2,23 +2,23 @@ as yet unclassified
 setUpLingVars
 	"setUpLingVars"
 	ventil := FuzzyLinguisticVariable new.
-	ventil varname: 'ventil';
+	ventil varName: 'ventil';
 		 xmin: -100;
 		 xmax: 100;
-		 neuesSet: auf;
-		 neuesSet: halb;
-		 neuesSet: zu.
+		 newFuzzySet: auf;
+		 newFuzzySet: halb;
+		 newFuzzySet: zu.
 	druck := FuzzyLinguisticVariable new.
-	druck varname: 'druck';
+	druck varName: 'druck';
 		 xmin: -500;
 		 xmax: 500;
-		 neuesSet: niedrig;
-		 neuesSet: mittel;
-		 neuesSet: hoch.
+		 newFuzzySet: niedrig;
+		 newFuzzySet: mittel;
+		 newFuzzySet: hoch.
 	temperatur := FuzzyLinguisticVariable new.
-	temperatur varname: 'temperatur';
+	temperatur varName: 'temperatur';
 		 xmin: -90;
 		 xmax: 90;
-		 neuesSet: kalt;
-		 neuesSet: warm;
-		 neuesSet: heiss
+		 newFuzzySet: kalt;
+		 newFuzzySet: warm;
+		 newFuzzySet: heiss

@@ -1,5 +1,5 @@
 as yet unclassified
-oder: aArray dann: aObject
+or: aArray thenZ: aObject
     "Oder-Operator. Ergebnis in Gesamtfläche eintragen."
     | einer alle ergebnis top z|
 
@@ -7,7 +7,7 @@ oder: aArray dann: aObject
     do: bewirkt, daß mit jedem Set als Parameter der Block ausgeführt wird."
 
 
-    aArray do: [:aFuzzySet | einer := aFuzzySet degree: ( eingang at: (self varZuSet: aFuzzySet)).
+    aArray do: [:aFuzzySet | einer := aFuzzySet degree: ( input at: (self varToSet: aFuzzySet)).
                     alle isNil
                         ifTrue: [alle := Set with: einer]
                         ifFalse: [alle add: einer]
@@ -21,5 +21,5 @@ oder: aArray dann: aObject
                 ].
 
     ergebnis := top.
-
-    self teilFlaeche: aObject product: ergebnis
+    z := aObject.
+    z := ergebnis

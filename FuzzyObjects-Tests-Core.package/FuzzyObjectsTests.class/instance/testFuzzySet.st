@@ -13,8 +13,8 @@ testFuzzySet
 		 breiterechts: 90;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	self assert: coldTest setname = 'cold'.
 	self assert: coldTest setcolor = #blueColor.
 	self assert: coldTest xmin = -90.

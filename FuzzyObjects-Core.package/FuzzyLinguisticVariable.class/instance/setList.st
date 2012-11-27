@@ -1,5 +1,5 @@
 accessing
-setliste
+setList
     "Gibt die setliste aus"
 
-    ^setliste
+    ^setList

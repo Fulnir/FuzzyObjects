@@ -1,0 +1,5 @@
+accessing
+inputValue
+    "comment"
+
+    ^inputValue

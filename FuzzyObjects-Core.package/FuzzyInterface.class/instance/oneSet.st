@@ -1,8 +1,8 @@
 as yet unclassified
-einSet
+oneSet
     "zeichnet das angegebene Set."
     |aset avar|
 
-    avar := lingvarliste at: 'druck'.
-    aset := avar set: 'mittel'.
+    avar := lingVarList at: 'druck'.
+    aset := avar fuzzySetNamed: 'mittel'.
     aset display

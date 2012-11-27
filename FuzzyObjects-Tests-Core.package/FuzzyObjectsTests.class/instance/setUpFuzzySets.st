@@ -12,8 +12,8 @@ setUpFuzzySets
 		 breiterechts: 90;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	"gerade"
 	warm := FuzzySet new.
 	warm setname: 'warm';
@@ -26,8 +26,8 @@ setUpFuzzySets
 		 breiterechts: 90;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	"gerade"
 	heiss := FuzzySet new.
 	heiss setname: 'heiss';
@@ -40,8 +40,8 @@ setUpFuzzySets
 		 breiterechts: 0;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	"gerade"
 	hoch := FuzzySet new.
 	hoch setname: 'hoch';
@@ -54,8 +54,8 @@ setUpFuzzySets
 		 breiterechts: 0;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	mittel := FuzzySet new.
 	mittel setname: 'mittel';
 		 setcolor: #greenColor;
@@ -67,8 +67,8 @@ setUpFuzzySets
 		 breiterechts: 500;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	niedrig := FuzzySet new.
 	niedrig setname: 'nidrig';
 		 setcolor: #blueColor;
@@ -80,8 +80,8 @@ setUpFuzzySets
 		 breiterechts: 500;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	"gerade"
 	auf := FuzzySet new.
 	auf setname: 'auf';
@@ -94,8 +94,8 @@ setUpFuzzySets
 		 breiterechts: 0;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	halb := FuzzySet new.
 	halb setname: 'halb';
 		 setcolor: #greenColor;
@@ -107,8 +107,8 @@ setUpFuzzySets
 		 breiterechts: 100;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade.
+		 leftFunction: #gerade;
+		 rightFunction: #gerade.
 	zu := FuzzySet new.
 	zu setname: 'zu';
 		 setcolor: #blueColor;
@@ -120,5 +120,5 @@ setUpFuzzySets
 		 breiterechts: 100;
 		 ymin: 0;
 		 ymax: 1;
-		 linkefunktion: #gerade;
-		 rechtefunktion: #gerade
+		 leftFunction: #gerade;
+		 rightFunction: #gerade

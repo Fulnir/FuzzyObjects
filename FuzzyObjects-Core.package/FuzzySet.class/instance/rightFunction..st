@@ -1,5 +1,5 @@
 as yet unclassified
-rechtefunktion: aSymbol
+rightFunction: aSymbol
     "setzen der rechten Setfunktion. siehe auch linkefunktion:."
 
     |func|

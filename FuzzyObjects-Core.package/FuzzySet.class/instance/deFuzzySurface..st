@@ -1,5 +1,5 @@
 accessing
-deFuzzyFlaeche: aArray
+deFuzzySurface: aArray
     "Setzt die deFuzzyFlaeche."
 
     deFuzzyFlaeche := aArray

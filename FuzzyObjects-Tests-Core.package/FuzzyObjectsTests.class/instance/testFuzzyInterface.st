@@ -7,11 +7,11 @@ testFuzzyInterface
     ventilSteuerungTest := FuzzyInterface new.
 
     ventilSteuerungTest
-        flaechengroesse: 101;        "Genauigkeit der Defuzzyfizierung."
-        neueLingVar: ventil;
-        neueLingVar: druck;
-        neueLingVar: temperatur.
+        surfaceSize: 101;        "Genauigkeit der Defuzzyfizierung."
+        newLingVar: ventil;
+        newLingVar: druck;
+        newLingVar: temperatur.
 
-	self assert: ventilSteuerungTest flaechengroesse = 101.
-	self assert: (ventilSteuerungTest lingvar:  'ventil' )varname = 'ventil'.
+	self assert: ventilSteuerungTest surfaceSize = 101.
+	self assert: (ventilSteuerungTest lingvar:  'ventil' )varName = 'ventil'.
 	

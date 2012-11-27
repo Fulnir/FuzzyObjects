@@ -1,5 +1,5 @@
 accessing
-deFuzzyFlaeche: aObject
+deFuzzySurface: aObject
     "Notiert die Fuzzyfläche in der linguistischen Variablen."
 
-    deFuzzyFlaeche := aObject
+    deFuzzySurface := aObject

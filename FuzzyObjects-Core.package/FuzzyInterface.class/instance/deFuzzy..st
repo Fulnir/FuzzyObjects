@@ -1,4 +1,4 @@
-as yet unclassified
+solving
 deFuzzy: aString
     "startet die Defuzzyfizierung."
 
@@ -10,7 +10,7 @@ deFuzzy: aString
     suchhalbeFlaeche := 0.
     mylauf := 0.
 
-    1 to: Flaechengroesse do: [:lauf | ganzeFlaeche := ganzeFlaeche +  (myLingVar deFuzzyFlaeche at: lauf)].
+    1 to: SurfaceSize do: [:lauf | ganzeFlaeche := ganzeFlaeche +  (myLingVar deFuzzySurface at: lauf)].
 
     halbeFlaeche := ganzeFlaeche / 2.
 
@@ -18,12 +18,12 @@ deFuzzy: aString
 
     [suchhalbeFlaeche <= halbeFlaeche]
         whileTrue: [mylauf := mylauf +1.
-                    suchhalbeFlaeche := suchhalbeFlaeche +  (myLingVar deFuzzyFlaeche at: mylauf).
+                    suchhalbeFlaeche := suchhalbeFlaeche +  (myLingVar deFuzzySurface at: mylauf).
         ].
     "Fläche löschen."
-    1 to: Flaechengroesse do: [:lauf | myLingVar deFuzzyFlaeche at: lauf put: 0].
+    1 to: SurfaceSize do: [:lauf | myLingVar deFuzzySurface at: lauf put: 0].
 
     "-----Aus Index Ausgangswert berechnen und ausgeben."
 
     bereich := (-1 * myLingVar xmin  ) + myLingVar xmax abs.
-    ^((mylauf - 1) * bereich / (Flaechengroesse - 1)) + myLingVar xmin
+    ^((mylauf - 1) * bereich / (SurfaceSize - 1)) + myLingVar xmin

@@ -1,5 +1,5 @@
 accessing
-varname: aString
+varName: aString
     "Trägt den Namen der linguistischen Variablen in die Instance."
 
-    varname := aString
+    varName := aString

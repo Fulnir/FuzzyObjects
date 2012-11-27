@@ -1,8 +1,8 @@
 as yet unclassified
-neueregel: aBlock
+newRule: aArray
     "trägt eine neue regel in die regelliste regeln ein."
 
     rules isNil
-        iftrue: [rules := Set new].
+        ifTrue: [rules := Set new].
 
-    rules add: aBlock.
+    rules add: aArray.

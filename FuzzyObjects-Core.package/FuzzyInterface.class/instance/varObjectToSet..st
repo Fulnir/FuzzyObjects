@@ -1,10 +1,10 @@
 as yet unclassified
-varObjectZuSet: aObject
+varObjectToSet: aObject
     "Antwortet mit der Instance einer Ling.Var. des fuzzyset-Objects aObject."
     | myvar |
 
-    lingvarliste keysDo: [ :aVarname |
+    lingVarList keysDo: [ :aVarname |
         myvar := self var: aVarname.
-        (myvar setliste includes: aObject)
+        (myvar setList includes: aObject)
             ifTrue: [^myvar].
     ].
