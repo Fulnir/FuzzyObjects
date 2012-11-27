@@ -14,7 +14,7 @@ I create this repository only to play with and learning the workflow between Pha
 And have no plans to make complete useable component with
 
 
-It's not translated from German to English yet.
+It's not translated from German to English yet. (But soon:-)
 
 
 
