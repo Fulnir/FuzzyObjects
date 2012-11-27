@@ -40,14 +40,12 @@ testFuzzyRules
         eingang: 'druck'        setzen: 120.
 
 
-    ventilSteuerungTest
-        ausgangLesen: 'ventil'.
+    
+	self assert: (ventilSteuerungTest  ausgangLesen: 'ventil') = 62.
 
+    " VentilSteuerung ausgangalle.           -defuzzyfizierung für alle ausgänge."
 
-    " VentilSteuerung
-        ausgangalle.           -defuzzyfizierung für alle ausgänge."
-
-	ventilSteuerungTest := FuzzyInterface new.
+	"ventilSteuerungTest := FuzzyInterface new."
 "FuzzyLingVarDialog initialize.
 FuzzyLingVarDialog openOn: ventilSteuerungTest.
 FuzzyLingVarDialog initialize.

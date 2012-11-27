@@ -1,4 +1,4 @@
-# FuzzyObjects
+# FuzzyObjects [![Build Status](https://secure.travis-ci.org/Fulnir/FuzzyObjects.png?branch=master)](https://www.travis-ci.org/Fulnir/FuzzyObjects)
 
 **FuzzyControl Snippets**
 
@@ -15,7 +15,7 @@ And have no plans to make complete useable component with
 
 It's not translated from German to English yet.
 
-[![Build Status](https://secure.travis-ci.org/Fulnir/FuzzyObjects.png?branch=master)](https://www.travis-ci.org/Fulnir/FuzzyObjects)
+
 
 
 

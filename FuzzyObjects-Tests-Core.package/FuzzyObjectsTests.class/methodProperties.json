@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "EdwinBuehler 11/26/2012 19:11",
+		"setUp" : "EdwinBuehler 11/27/2012 11:25",
 		"setUpFuzzySets" : "EdwinBuehler 11/26/2012 19:10",
+		"setUpInterface" : "EdwinBuehler 11/27/2012 11:25",
 		"setUpLingVars" : "EdwinBuehler 11/26/2012 19:12",
 		"testFuzzyInterface" : "EdwinBuehler 11/26/2012 19:27",
-		"testFuzzyRules" : "EdwinBuehler 11/26/2012 19:41",
+		"testFuzzyRules" : "EdwinBuehler 11/27/2012 11:26",
+		"testFuzzyRules1" : "EdwinBuehler 11/27/2012 11:26",
+		"testFuzzyRules2" : "EdwinBuehler 11/27/2012 11:27",
 		"testFuzzySet" : "EdwinBuehler 11/26/2012 19:07",
 		"testLinguisticVar" : "EdwinBuehler 11/26/2012 19:09",
 		"testSetUpFuzzySets" : "EdwinBuehler 11/26/2012 19:07" } }

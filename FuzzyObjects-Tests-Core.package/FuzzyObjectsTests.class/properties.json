@@ -17,7 +17,8 @@
 		"zu",
 		"ventil",
 		"druck",
-		"temperatur" ],
+		"temperatur",
+		"ventilSteuerung" ],
 	"name" : "FuzzyObjectsTests",
 	"pools" : [
 		 ],
