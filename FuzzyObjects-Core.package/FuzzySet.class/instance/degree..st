@@ -11,8 +11,8 @@ degree: anumber
 
     | func myLnumber myRnumber|
 
-    myLnumber := (anumber - (linkemitte - breitelinks)).
-    myRnumber := (anumber - (rechtemitte )).
+    myLnumber := (anumber - (leftMiddel - breitelinks)).
+    myRnumber := (anumber - rightMiddel).
 
     "Zuerst wird eine Fallunterscheidung durchgeführt.
     1.Frage: Reicht die maximale Zugehörigkeit bis +Unendlich ?
@@ -25,43 +25,43 @@ degree: anumber
         ja->dann
                 weitere falluntersch. bis rechtemitte."
 
-  rechtemitte = xmax ifFalse: [
-    linkemitte = xmin
-        ifTrue: [anumber <= rechtemitte
+  rightMiddel = xmax ifFalse: [
+    leftMiddel = xmin
+        ifTrue: [anumber <= rightMiddel
                     ifTrue: [^ymax].
-                (anumber > rechtemitte)&(anumber <= (rechtemitte + breiterechts))
+                (anumber > rightMiddel)&(anumber <= (rightMiddel + breiterechts))
                     ifTrue: [deltaY := deltaRY.
-                            func := rechtefunktion value: myRnumber.
+                            func := rightFunction value: myRnumber.
                             func := func .
                             ^func].
-                anumber > (rechtemitte + breiterechts)
+                anumber > (rightMiddel + breiterechts)
                     ifTrue: [^ymin].
                 ]
-        ifFalse: [anumber <= (linkemitte - breitelinks)
+        ifFalse: [anumber <= (leftMiddel - breitelinks)
                     ifTrue: [^ymin].
-                (anumber > (linkemitte - breitelinks))&(anumber <= linkemitte)
+                (anumber > (leftMiddel - breitelinks))&(anumber <= leftMiddel)
                     ifTrue: [deltaY := deltaLY.
-                            func := linkefunktion value: myLnumber.
+                            func := leftFunction value: myLnumber.
                             func := func.
                             ^func].
-                (anumber > linkemitte)&(anumber <= rechtemitte)
+                (anumber > leftMiddel)&(anumber <= rightMiddel)
                     ifTrue: [^ymax].
-                (anumber > rechtemitte)&(anumber <= (rechtemitte + breiterechts))
+                (anumber > rightMiddel)&(anumber <= (rightMiddel + breiterechts))
                     ifTrue: [deltaY := deltaRY.
-                            func := rechtefunktion value: myRnumber.
+                            func := rightFunction value: myRnumber.
                             func := func.
                             ^func].
-                anumber > (rechtemitte + breiterechts)
+                anumber > (rightMiddel + breiterechts)
                     ifTrue: [^ymin].
                 ]]
-    ifTrue: [anumber <= (linkemitte - breitelinks)
+    ifTrue: [anumber <= (leftMiddel - breitelinks)
                     ifTrue: [^ymin].
-                (anumber > (linkemitte - breitelinks))&(anumber <= linkemitte)
+                (anumber > (leftMiddel - breitelinks))&(anumber <= leftMiddel)
                     ifTrue: [deltaY := deltaLY.
-                            func := linkefunktion value: myLnumber.
+                            func := leftFunction value: myLnumber.
                             func := func.
                             ^func].
-                (anumber > linkemitte)&(anumber <= rechtemitte)
+                (anumber > leftMiddel)&(anumber <= rightMiddel)
                     ifTrue: [^ymax]
             ].
     ^1

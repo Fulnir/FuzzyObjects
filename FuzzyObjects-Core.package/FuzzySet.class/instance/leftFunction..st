@@ -20,4 +20,4 @@ leftFunction: aSymbol
     aSymbol = #efunktion ifTrue: [func := [:wert |  2.718281 raisedTo: (( wert - (breitelinks)))]].
     aSymbol = #efunktionscale10 ifTrue: [func := [:wert |  2.718281 raisedTo: (( wert - (breitelinks))*deltaY*10)]].
 
-    linkefunktion := func
+    leftFunction := func

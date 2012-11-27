@@ -13,4 +13,4 @@ rightFunction: aSymbol
     aSymbol = #efunktionscale10 ifTrue: [func := [:wert |  2.718281 raisedTo: (( wert * -1)*deltaY*10) - ymax]].
 
 
-    rechtefunktion := func
+    rightFunction := func
